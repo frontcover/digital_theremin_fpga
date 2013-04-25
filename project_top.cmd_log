@@ -1,0 +1,108 @@
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "project_top.ngc" project_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project_top_map.ncd project_top.ngd project_top.pcf 
+par -w -intstyle ise -ol high -mt off project_top_map.ncd project_top.ncd project_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml project_top.twx project_top.ncd -o project_top.twr project_top.pcf 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EndOfClassProject.ucf -p xc6slx16-csg324-3 "project_top.ngc" project_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project_top_map.ncd project_top.ngd project_top.pcf 
+par -w -intstyle ise -ol high -mt off project_top_map.ncd project_top.ncd project_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml project_top.twx project_top.ncd -o project_top.twr project_top.pcf -ucf EndOfClassProject.ucf 
+bitgen -intstyle ise -f project_top.ut project_top.ncd 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EndOfClassProject.ucf -p xc6slx16-csg324-3 "project_top.ngc" project_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project_top_map.ncd project_top.ngd project_top.pcf 
+par -w -intstyle ise -ol high -mt off project_top_map.ncd project_top.ncd project_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml project_top.twx project_top.ncd -o project_top.twr project_top.pcf -ucf EndOfClassProject.ucf 
+bitgen -intstyle ise -f project_top.ut project_top.ncd 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EndOfClassProject.ucf -p xc6slx16-csg324-3 "project_top.ngc" project_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project_top_map.ncd project_top.ngd project_top.pcf 
+par -w -intstyle ise -ol high -mt off project_top_map.ncd project_top.ncd project_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml project_top.twx project_top.ncd -o project_top.twr project_top.pcf -ucf EndOfClassProject.ucf 
+bitgen -intstyle ise -f project_top.ut project_top.ncd 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EndOfClassProject.ucf -p xc6slx16-csg324-3 "project_top.ngc" project_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project_top_map.ncd project_top.ngd project_top.pcf 
+par -w -intstyle ise -ol high -mt off project_top_map.ncd project_top.ncd project_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml project_top.twx project_top.ncd -o project_top.twr project_top.pcf -ucf EndOfClassProject.ucf 
+bitgen -intstyle ise -f project_top.ut project_top.ncd 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EndOfClassProject.ucf -p xc6slx16-csg324-3 "project_top.ngc" project_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project_top_map.ncd project_top.ngd project_top.pcf 
+par -w -intstyle ise -ol high -mt off project_top_map.ncd project_top.ncd project_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml project_top.twx project_top.ncd -o project_top.twr project_top.pcf -ucf EndOfClassProject.ucf 
+bitgen -intstyle ise -f project_top.ut project_top.ncd 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EndOfClassProject.ucf -p xc6slx16-csg324-3 "project_top.ngc" project_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project_top_map.ncd project_top.ngd project_top.pcf 
+par -w -intstyle ise -ol high -mt off project_top_map.ncd project_top.ncd project_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml project_top.twx project_top.ncd -o project_top.twr project_top.pcf -ucf EndOfClassProject.ucf 
+bitgen -intstyle ise -f project_top.ut project_top.ncd 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EndOfClassProject.ucf -p xc6slx16-csg324-3 "project_top.ngc" project_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project_top_map.ncd project_top.ngd project_top.pcf 
+par -w -intstyle ise -ol high -mt off project_top_map.ncd project_top.ncd project_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml project_top.twx project_top.ncd -o project_top.twr project_top.pcf -ucf EndOfClassProject.ucf 
+bitgen -intstyle ise -f project_top.ut project_top.ncd 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EndOfClassProject.ucf -p xc6slx16-csg324-3 "project_top.ngc" project_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project_top_map.ncd project_top.ngd project_top.pcf 
+par -w -intstyle ise -ol high -mt off project_top_map.ncd project_top.ncd project_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml project_top.twx project_top.ncd -o project_top.twr project_top.pcf -ucf EndOfClassProject.ucf 
+bitgen -intstyle ise -f project_top.ut project_top.ncd 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EndOfClassProject.ucf -p xc6slx16-csg324-3 "project_top.ngc" project_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project_top_map.ncd project_top.ngd project_top.pcf 
+par -w -intstyle ise -ol high -mt off project_top_map.ncd project_top.ncd project_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml project_top.twx project_top.ncd -o project_top.twr project_top.pcf -ucf EndOfClassProject.ucf 
+bitgen -intstyle ise -f project_top.ut project_top.ncd 
+xst -intstyle ise -ifn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.xst" -ofn "C:/Users/kellar/Google Drive/Dynetics University/S180 - FPGA_Design/project/EndOfClass/EndOfClass/project_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EndOfClassProject.ucf -p xc6slx16-csg324-3 "project_top.ngc" project_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project_top_map.ncd project_top.ngd project_top.pcf 
+par -w -intstyle ise -ol high -mt off project_top_map.ncd project_top.ncd project_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml project_top.twx project_top.ncd -o project_top.twr project_top.pcf -ucf EndOfClassProject.ucf 
+bitgen -intstyle ise -f project_top.ut project_top.ncd 
+bitgen -intstyle ise -f project_top.ut project_top.ncd 
+xst -intstyle ise -ifn "C:/pimmel/DynU/FPGA/Playground/EndOfClass/project_top.xst" -ofn "C:/pimmel/DynU/FPGA/Playground/EndOfClass/project_top.syr" 
+xst -intstyle ise -ifn "C:/pimmel/DynU/FPGA/Playground/EndOfClass/project_top.xst" -ofn "C:/pimmel/DynU/FPGA/Playground/EndOfClass/project_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EndOfClassProject.ucf -p xc6slx16-csg324-3 project_top.ngc project_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project_top_map.ncd project_top.ngd project_top.pcf 
+par -w -intstyle ise -ol high -mt off project_top_map.ncd project_top.ncd project_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml project_top.twx project_top.ncd -o project_top.twr project_top.pcf -ucf EndOfClassProject.ucf 
+xst -intstyle ise -ifn "C:/pimmel/DynU/FPGA/Playground/EndOfClass/project_top.xst" -ofn "C:/pimmel/DynU/FPGA/Playground/EndOfClass/project_top.syr" 
+xst -intstyle ise -ifn "C:/pimmel/DynU/FPGA/Playground/EndOfClass/project_top.xst" -ofn "C:/pimmel/DynU/FPGA/Playground/EndOfClass/project_top.syr" 
+xst -intstyle ise -ifn "C:/pimmel/DynU/FPGA/Playground/EndOfClass/project_top.xst" -ofn "C:/pimmel/DynU/FPGA/Playground/EndOfClass/project_top.syr" 
+xst -intstyle ise -ifn "C:/pimmel/DynU/FPGA/Playground/EndOfClass/project_top.xst" -ofn "C:/pimmel/DynU/FPGA/Playground/EndOfClass/project_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EndOfClassProject.ucf -p xc6slx16-csg324-3 project_top.ngc project_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project_top_map.ncd project_top.ngd project_top.pcf 
+par -w -intstyle ise -ol high -mt off project_top_map.ncd project_top.ncd project_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml project_top.twx project_top.ncd -o project_top.twr project_top.pcf -ucf EndOfClassProject.ucf 
+xst -intstyle ise -ifn "C:/pimmel/DynU/FPGA/Playground/EndOfClass/project_top.xst" -ofn "C:/pimmel/DynU/FPGA/Playground/EndOfClass/project_top.syr" 
+xst -intstyle ise -ifn "C:/pimmel/DynU/FPGA/Playground/EndOfClass/project_top.xst" -ofn "C:/pimmel/DynU/FPGA/Playground/EndOfClass/project_top.syr" 
+xst -intstyle ise -ifn "C:/pimmel/DynU/FPGA/Playground/EndOfClass/project_top.xst" -ofn "C:/pimmel/DynU/FPGA/Playground/EndOfClass/project_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EndOfClassProject.ucf -p xc6slx16-csg324-3 project_top.ngc project_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project_top_map.ncd project_top.ngd project_top.pcf 
+par -w -intstyle ise -ol high -mt off project_top_map.ncd project_top.ncd project_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml project_top.twx project_top.ncd -o project_top.twr project_top.pcf -ucf EndOfClassProject.ucf 
+bitgen -intstyle ise -f project_top.ut project_top.ncd 
+xst -intstyle ise -ifn "C:/pimmel/DynU/FPGA/Playground/EndOfClass/project_top.xst" -ofn "C:/pimmel/DynU/FPGA/Playground/EndOfClass/project_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EndOfClassProject.ucf -p xc6slx16-csg324-3 project_top.ngc project_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o project_top_map.ncd project_top.ngd project_top.pcf 
+par -w -intstyle ise -ol high -mt off project_top_map.ncd project_top.ncd project_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml project_top.twx project_top.ncd -o project_top.twr project_top.pcf -ucf EndOfClassProject.ucf 

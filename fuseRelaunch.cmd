@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/pimmel/DynU/FPGA/Playground/EndOfClass/dds_synthesizer_tb_isim_beh.exe" -prj "C:/pimmel/DynU/FPGA/Playground/EndOfClass/dds_synthesizer_tb_beh.prj" "work.dds_synthesizer_tb" 
